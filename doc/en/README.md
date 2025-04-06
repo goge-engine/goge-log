@@ -22,7 +22,7 @@ func main() {
 **Goge Log** provides several methods for the `GogeLogClass` struct to output logs, which are:  
 - `Log(logContext string)` is used to output logs
 - `Error(errorContext error)` is used to output error messages 
-- `Log(warningContext gogeBasis.warning)` is used to output warning messages
+- `Log(warningContext gogeBasis.Warning)` is used to output warning messages
 - `DevelopmentLog(logHead string, logContext string)` is used to output logs during development, allowing customization of the log level or type by filling in the `logHead` parameter
 - `ErrorAndWarningProcess(errorContext error, warningContext gogeBasis.Warning)` is used to automatically output error and warning messages, without the need to check if `error` or `gogeBasis.Warning` is empty, simply call it directly
 

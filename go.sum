@@ -1,6 +1,4 @@
-github.com/goge-engine/goge-basis v0.0.0-20250308141523-cd712ed8b2ed h1:kTAO1oFAV1c6XzynuARsXFuoBqHBnqL7/rqkX1yoypE=
-github.com/goge-engine/goge-basis v0.0.0-20250308141523-cd712ed8b2ed/go.mod h1:IU36THL69X5AVSDwofLtkEeTnMz3+6cktU1lRhE+ugY=
-github.com/goge-engine/goge-basis v0.0.0-20250308162549-642db1a8c4fd h1:lx2kcDnWpQpEYPU2Bm53qfxN0ExqAWd+7BJidxTvQ7o=
-github.com/goge-engine/goge-basis v0.0.0-20250308162549-642db1a8c4fd/go.mod h1:IU36THL69X5AVSDwofLtkEeTnMz3+6cktU1lRhE+ugY=
-github.com/goge-engine/goge-basis v0.0.0-20250308233806-3c727589822a h1:AFbQCbADWzY7OgFL6qjufvoJ2HtkQ0tl7/vMYzzKGz4=
-github.com/goge-engine/goge-basis v0.0.0-20250308233806-3c727589822a/go.mod h1:IU36THL69X5AVSDwofLtkEeTnMz3+6cktU1lRhE+ugY=
+github.com/goge-engine/goge-basis v0.2.0 h1:+tdd1Ek105G3pWxpCqEzszv+IQB7Bu2FBset/6XZIhs=
+github.com/goge-engine/goge-basis v0.2.0/go.mod h1:IU36THL69X5AVSDwofLtkEeTnMz3+6cktU1lRhE+ugY=
+github.com/goge-engine/goge-basis v0.2.1 h1:F6yH93por7GZ6FlH5R5RvPcWuJ8TCqbnm9TAAmm/6xY=
+github.com/goge-engine/goge-basis v0.2.1/go.mod h1:IU36THL69X5AVSDwofLtkEeTnMz3+6cktU1lRhE+ugY=

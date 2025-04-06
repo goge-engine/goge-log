@@ -36,8 +36,8 @@ func (this *GogeLogClass) Error(errorContext error) {
 	}
 }
 
-func (this *GogeLogClass) Wraning(warningContext gogeBasis.Warning) {
-	this.Logger.Println("[warning]", warningContext.Message)
+func (this *GogeLogClass) Warning(warningContext gogeBasis.Warning) {
+	this.Logger.Println("[warning]", warningContext.Warning())
 }
 
 func (this *GogeLogClass) DevelopmentLog(logHead string, logContext string) {
@@ -48,8 +48,8 @@ func (this *GogeLogClass) ErrorAndWarningProcess(errorContext error, warningCont
 	if errorContext != nil {
 		this.Error(errorContext)
 	}
-	if warningContext.Message != "" {
-		this.Wraning(warningContext)
+	if warningContext != nil {
+		this.Warning(warningContext)
 	}
 	return
 }

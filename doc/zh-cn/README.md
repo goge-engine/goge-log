@@ -22,7 +22,7 @@ func main() {
 **Goge Log**提供了一些日志输出的`GogeLogClass`结构体方法，它们为：  
 - `Log(logContext string)`用于输出日志
 - `Error(errorContext error)` 用于输出错误信息 
-- `Log(warningContext gogeBasis.warning)`  用于输出警告信息
+- `Warning(warningContext gogeBasis.Warning)`  用于输出警告信息
 - `DevelopmentLog(logHead string, logContext string)`  用于开发时输出日志，可以以填入`logHead`参数的方式自定义输出日志等级或类型
 - `ErrorAndWarningProcess(errorContext error, warningContext gogeBasis.Warning)`  用于自动输出错误和警告信息，无需判断`error`或者`gogeBasis.Warning`是否为空，直接调用即可
 
