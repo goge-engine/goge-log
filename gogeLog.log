@@ -1,0 +1,5 @@
+[gogeLog] 2025/04/06 08:49:43 gogeLog.go:24: [gogeLog] INIT SUCCESS
+[gogeLog] 2025/04/06 08:49:43 gogeLog.go:28: [gogeLog] test log
+[gogeLog] 2025/04/06 08:49:43 gogeLog.go:33: [error] test error
+[gogeLog] 2025/04/06 08:49:43 gogeLog.go:39: [warning] This is a warning message
+[gogeLog] 2025/04/06 08:49:43 gogeLog.go:44: [gogeLogTest] test development log

@@ -30,14 +30,14 @@ func (this *GogeLogClass) Log(logContext string) {
 
 func (this *GogeLogClass) Error(errorContext error) {
 	if errorContext != nil {
-		return
-	} else {
 		this.Logger.Println("[error]", errorContext)
 	}
 }
 
 func (this *GogeLogClass) Warning(warningContext gogeBasis.Warning) {
-	this.Logger.Println("[warning]", warningContext.Warning())
+	if warningContext != nil {
+		this.Logger.Println("[warning]", warningContext.Warning())
+	}
 }
 
 func (this *GogeLogClass) DevelopmentLog(logHead string, logContext string) {
